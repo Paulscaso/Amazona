@@ -16,8 +16,8 @@ main {
 }
 
 .btn-primary{
-  background-color: #ffc000;
-  color: #000000;
+  background-color: #ffc000 !important;
+  color: #000000 !important;
 }
 .products {
   display: flex;
@@ -39,4 +39,18 @@ main {
 
 .product-info {
   padding: 1rem;
+}
+.product-info{
+  padding: 1rem;
+}
+.img-large{
+  max-width: 100%;
+
+}
+.img-thumbnail{
+  height: 80px;
+}
+
+.small-container{
+  max-width: 600px;
 }
